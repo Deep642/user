@@ -1,5 +1,5 @@
 import axios from 'axios';
-const usersUrl = 'http://localhost:9889';
+const usersUrl = 'https://user-api-eight.vercel.app/';
 
 export const getUsers = async (id) => {
     id = id || '';
