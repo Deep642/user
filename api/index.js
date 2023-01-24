@@ -8,15 +8,15 @@ import { fileURLToPath } from 'url';
 import Routes from './server/route.js';
 import Connection from './database/db.js';
 
-const __filename = fileURLToPath(import.meta.url);
+// const __filename = fileURLToPath(import.meta.url);
 
-const __dirname = path.dirname(__filename);
-const app = express();
+// const __dirname = path.dirname(__filename);
+// const app = express();
 
-app.use(express.static(path.join(__dirname,"./build")));
-app.get("*",(req,res)=>{
-res.sendFile(path.join(__dirname,"./build/index.html"));
-});
+// app.use(express.static(path.join(__dirname,"./build")));
+// app.get("*",(req,res)=>{
+// res.sendFile(path.join(__dirname,"./build/index.html"));
+// });
 
 dotenv.config();
 
