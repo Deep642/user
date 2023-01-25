@@ -1,5 +1,5 @@
-import mongoose from 'mongoose';
-import autoIncrement from 'mongoose-auto-increment';
+const mongoose =require('mongoose');
+const autoIncrement=require ('mongoose-auto-increment');
 
 // how  document look like
 const userSchema = mongoose.Schema({
