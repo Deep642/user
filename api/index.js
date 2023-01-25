@@ -1,17 +1,17 @@
 const express =require ('express');
-import bodyParser from 'body-parser'; 
-import dotenv from 'dotenv';
-import cors from 'cors';
-import path from "path";
-import { fileURLToPath } from 'url';
+const bodyParser =require ('body-parser'); 
+const dotenv =require('dotenv');
+const cors =require('cors');
+// import path from "path";
+// import { fileURLToPath } from 'url';
 
-import Routes from './server/route.js';
-import Connection from './database/db.js';
+const Routes =require('./server/route.js');
+const Connection =require ('./database/db.js');
 
 // const __filename = fileURLToPath(import.meta.url);
 
 // const __dirname = path.dirname(__filename);
-// const app = express();
+const app = express();
 
 // app.use(express.static(path.join(__dirname,"./build")));
 // app.get("*",(req,res)=>{
