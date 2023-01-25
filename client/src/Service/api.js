@@ -1,5 +1,5 @@
 import axios from 'axios';
-const usersUrl = 'https://useeer-api.onrender.com/';
+const usersUrl = 'https://useeer-api.onrender.com';
 
 export const getUsers = async (id) => {
     id = id || '';
