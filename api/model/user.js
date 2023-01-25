@@ -9,8 +9,8 @@ const userSchema = mongoose.Schema({
     phone: Number
 });
 
-autoIncrement.initialize(mongoose.connection);
-userSchema.plugin(autoIncrement.plugin, 'user');
+// autoIncrement.initialize(mongoose.connection);
+// userSchema.plugin(autoIncrement.plugin, 'user');
 const postUser = mongoose.model('user', userSchema);
 
 export default postUser;
