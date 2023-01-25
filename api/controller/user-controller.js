@@ -1,4 +1,4 @@
-import User from '../model/user.js';
+const User =require ('../model/user.js');
 
 // Get all users
 export const getUsers = async (request, response) => {
