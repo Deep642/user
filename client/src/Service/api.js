@@ -1,5 +1,5 @@
 import axios from 'axios';
-const usersUrl = 'https://user-api-eight.vercel.app/';
+const usersUrl = 'https://useeer-api.onrender.com/';
 
 export const getUsers = async (id) => {
     id = id || '';
