@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose =require ('mongoose');
 
 const Connection = async (username, password) => {
     const URL = `mongodb+srv://CRUD-Project:CRUD-Project@crud-project.jopaya8.mongodb.net/?retryWrites=true&w=majority`
